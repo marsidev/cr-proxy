@@ -1,0 +1,1 @@
+> This is a proxy for the [Clash Royale API](https://developer.clashroyale.com). No auth needed.

@@ -1,0 +1,25 @@
+{
+	"name": "cr-proxy",
+	"version": "1.0.0",
+	"description": "This is proxy for the Clash Royale API",
+	"main": "src/server.mjs",
+	"scripts": {
+		"start": "node src/server.mjs",
+		"dev": "nodemon src/server.mjs",
+		"dev:express": "nodemon src/index.js"
+	},
+	"author": "Luis Marsiglia",
+	"license": "ISC",
+	"dependencies": {
+		"@fastify/cors": "8.1.1",
+		"@fastify/env": "4.1.0",
+		"@fastify/sensible": "5.1.1",
+		"fastify": "4.9.2",
+		"isomorphic-fetch": "3.0.0"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "0.27.0",
+		"eslint": "8.26.0",
+		"nodemon": "2.0.20"
+	}
+}
